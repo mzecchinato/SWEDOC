@@ -1,3 +1,16 @@
+#Latex
+*.pdf
+*.aux
+*.toc
+*.log
+*.out
+*.syntex.gz
+*.blg
+*.bbl
+*.lof
+*.lot
+*.vpp
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
