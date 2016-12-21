@@ -4,7 +4,7 @@
 *.toc
 *.log
 *.out
-*.syntex.gz
+*.gz
 *.blg
 *.bbl
 *.lof
