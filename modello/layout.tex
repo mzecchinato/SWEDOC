@@ -7,23 +7,17 @@
 
 % permette di modificare i margini
 %\usepackage[top=3.1cm, bottom=3.1cm, left=2.2cm, right=2.2cm]{geometry}
-%\usepackage[a4paper]{geometry}
-\usepackage[top=2cm, bottom=3cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[a4paper]{../../modello/geometry}
+
+% specifica con quale codifica bisogna leggere i file
+\usepackage[utf8]{inputenc}
+
+% necessario per risolvere il problema del carattere invisibile per l'a capo
+\DeclareUnicodeCharacter{00A0}{ }
 
 % per scrivere in italiano e in inglese;
 % l'ultima lingua (l'italiano) risulta predefinita
 \usepackage[english, italian]{babel}
-
-% specifica con quale codifica bisogna leggere i file
-% Windows
-\usepackage[latin1]{inputenc}
-% Linux richiede Unicode
-%\usepackage[utf8x]{inputenc}
-% OsX
-%\usepackage[applemac]{inputenc}
-
-% necessario per risolvere il problema del carattere invisibile per l'a capo
-\DeclareUnicodeCharacter{00A0}{ }
 
 % imposta lo stile italiano per i paragrafi
 \usepackage{parskip}
@@ -92,7 +86,7 @@
 
 % permette di fare longtable larghe tutta la pagina (parametro x)
 % su Ubuntu non si può installare il pacchetto, deve essere in modello/
-\usepackage{tabu}
+\usepackage{../../modello/tabu}
 
 % imposta lo spazio tra le righe di una tabella
 \setlength{\tabulinesep}{6pt}
@@ -118,10 +112,10 @@
 
 % permette di includere i diagrammi Gantt
 % su Ubuntu non si può installare il pacchetto, deve essere in modello/
-\usepackage{pgfgantt}
+\usepackage{../../modello/pgfgantt}
 
 % permette di includere i grafici a torta
-%\usepackage{pgf-pie}
+\usepackage{../../modello/pgf-pie}
 
 % necessario per pgf-pie
 \usepackage{tikz}
